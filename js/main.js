@@ -136,7 +136,7 @@ $('#fixed-circle-button').on('click', function() {
             })
         )
     setTimeout(() => {
-        $('#hero2').html('<span>鏡の前で</span><br><span>対話せよ</span><br><span>己と向き合え</span><br></h1>')
+        $('#hero2').html('<span>意味からの脱却</span><br><span>己と対話せよ</span><br><span>鏡の世界で</span><br></h1>')
         $('#hero1').html('Always Ask "Why me?"')
         $('#hero3').html('The Mirror World of <a href="onsei.html" style="color: #FFF;" class="text-decoration-none fw-bold"><span id="burn">"Why you?"</span></a>')
         $('#hero4').html('即興演劇・哲学対話の手法を取り入れたセルフコーチングツール')
