@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ブイズアカデミー</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/myshuffletext.js"></script>
+  <script src="js/jquery.burn.min.js"></script>
+</head>
+<!-- 最初の設定は終わっています 必要な方は触ってください -->
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+  <div class="wrap">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg text-white fixed-top">
+        <div class="container">
+          <h1 class="d-flex align-items-center m-0 p-0 header__logo" id="logo">
+            <a class="navbar-brand" href="#top">
+              <img src="img/logo_short-b.png" class="navbar_logo-v me-2" alt="ブイズアカデミー" width="40" height="30">
+              <img src="img/logo_long-b.webp" class="navbar_logo-vsacademy mx-1" alt="セカイを創るVISIONARYになろう" width="196" height="35">
+            </a>
+          </h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#about" id="nav1">PROGRAM</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#contrast" id="nav2">vs G's?</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#access" id="nav3">ACCESS</a>
+              </li>
+              <li class="header__contact nav-item px-3">
+                <a class="btn btn-outline-light" href="#contact" id="button">説明会に予約する</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <button id="fixed-circle-button" class="btn btn-danger rounded-circle">
+        Why<br>me?
+      </button>
+    </header>
+    <main class="top-page" id="top">
+      <!-- 01.first-view / -->
+      <section class="section section-hero hero d-flex align-items-end">
+        <div class="first-view d-flex flex-column justify-content-end">
+          <p class="first-view__cap lead mb-1 lh-1 blockquote-footer fw-bold" id="hero1">Start Up, Everyone.</p>
+          <h1 class="first-view__catch mb-1 lh-1 fw-bold" id="hero2">
+            <span>セカイを創る</span><br><span>"VISIONARY"</span><br><span>になろう</span></h1>
+          <p class="first-view__sub lead mb-1 lh-1" id="hero3">顧客と対話する実践プロジェクト</p>
+          <p class="first-view__text lead mb-1 lh-1"id="hero4">あなたが世界を塗り替える、本当の冒険をはじめよう</p>
+        </div>
+      </section>
+      <!-- / 01.first-view -->
+      <!-- 02.about / -->
+      <section class="section section__about about mt-5 py-5" id="about">
+        <div class="container about__container fadeUpTrigger">
+          <h2 class="text-center fs-2 fw-bold lh-base">What is V's ACADEMY?</h2>
+          <p class="text-center lh-base">スタートアップとは「とてつもなく不確実な状況で新しい製品やサービスを生み出さなければならない人的組織」である（リース, 2011）。「Start Up, Everyone.」を本気で実現するプログラムが、ここにあります。V's ACADEMYは、セカイをつくるVISIONARYのための起業家・アントレプレナースクールを核とするコミュニティです。</p>
+          <p class="blockquote-footer text-center lh-base pt-2">参考文献：リース・E, 2011, リーン・スタートアップ, クロスメディア・パブリッシング</p>
+        </div>
+      </section>
+      <!-- 02.mainvisual / -->
+      <!-- / 02.about -->
+      <!-- 03.mainvisual / -->
+      <section class="section section__mainvisual mainvisual py-5" id="mainvisual">
+        <div class="container mainvisual__container mainvisual__container01">
+          <div class="row flex-row">
+            <div class="col-md-7 mb-4">
+              <div class="redrounded__out fadeUpTrigger h-100">
+                <div class="card card01 h-100 rounded__in text-white">
+                  <div class="card-body">
+                    <p class="card-text fw-bold mb-1">カリキュラム：フェーズ1</p>
+                    <h2 class="card-title display-2 fw-bold">The Big Bang<br>of Ideas,<br>Starting Here.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 mb-4">
+              <div class="row justify-content-between h-100">
+                <div class="col-12 mb-4">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card02 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">BE GAME<br>CHANGERS.</h3>
+                        <p class="card-text">1-1／単なるアイデアマンを目指さない<br>アイデア創出プログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal01">詳細 →</button>
+                        <div class="modal fade" id="modal01" tabindex="-1" aria-labelledby="modal01Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal01Label">1-1 アイデア創出プログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                対話型プログラムを通じて「常識を覆す、検証可能でインパクトのある仮説」を立てる方法を学びます。「デザイン思考」「クリエイティブ・プロブレム・ソルビング」「ブレインストーミング・テクニック」「クリティカルシンキング」など、創造力を別次元まで磨き上げ、新しいアイデアが生まれる瞬間を追求します。ビジネスモデルの構築・市場適合性の検証などの実践ワークショップも行います。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card03 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">MASTER<br>"MVP"</h3>
+                        <p class="card-text">1-2／アントレプレナーを生きるための<br>プロトタイプ開発プログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal02">詳細 →</button>
+                        <div class="modal fade" id="modal02" tabindex="-1" aria-labelledby="modal02Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal02Label">1-2 プロトタイプ開発プログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                このプログラムでは、参加者は仮説に基づいて「最小限の機能を持った製品（MVP：Minimum Viable Product）」の設計方法を学びます。MVPとは、アイデアを具現化し、顧客の反応を調査するために最低限必要な機能だけを持った初期の製品です。MVPデザインワークショップでは、チームで効果的なMVPの構想を練り、顧客ニーズに対応した製品アイデアを具現化します。このプロセスを通じて、参加者はアイデアの実現とプロダクト設計の基礎を学び、ビジネス展開への第一歩を踏み出します。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mainvisual__container mainvisual__container02">
+          <div class="row flex-row-reverse">
+            <div class="col-md-7 mb-4">
+              <div class="redrounded__out fadeUpTrigger h-100">
+                <div class="card card04 h-100 rounded__in text-white">
+                  <div class="card-body rounded__in">
+                    <p class="card-text fw-bold mb-1">カリキュラム：フェーズ2</p>
+                    <h2 class="card-title display-2 fw-bold">Learning with<br>Dialogue,<br>Playing with<br>the World.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 mb-4">
+              <div class="row justify-content-between h-100">
+                <div class="col-12 mb-4">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card05 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">LISTEN TO<br>CUSTOMERS.</h3>
+                        <p class="card-text">2-1／実際の顧客と対話・戦略のピボットを<br>ひたすら繰り返す実践プログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal03">詳細 →</button>
+                        <div class="modal fade" id="modal03" tabindex="-1" aria-labelledby="modal03Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal03Label">2-1 顧客開発実践プログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                顧客のニーズや痛みを深く理解するために、効果的なヒアリング技術を学び、実際にカスタマーインタビューやヒアリングセッションを実施する実践的なワークショップです。さらに、現在のビジネスモデルやプロダクトがうまく機能していない場合、戦略を転換するピボットの方法を学び、実際に戦略を見直す手法を習得します。これにより、プロダクトの改善を繰り返すプロセスを学ぶことができます。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card06 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">LISTEN TO<br>CREWS.</h3>
+                        <p class="card-text">2-2／他では学べない<br>スタートアップ組織構成プログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal04">詳細 →</button>
+                        <div class="modal fade" id="modal04" tabindex="-1" aria-labelledby="modal04Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal04Label">2-2 スタートアップ組織構成プログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                このプログラムでは、対話や傾聴を用いたチームビルディングのスキルを実践し、チームの協力を深めます。参加者は、効果的なチーム運営や意思決定の方法を学び、実際にチームで課題に取り組むことでコミュニケーション能力やリーダーシップを向上させます。また、スタートアップにおける人材確保の方法を学び、社員だけでなくパートナーや外部リソースの活用法も習得します。このプログラムを通じて、組織内外の人材との連携を強化し、チーム全体の生産性を向上させることができます。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mainvisual__container mainvisual__container03">
+          <div class="row flex-row">
+            <div class="col-md-7 mb-4">
+              <div class="redrounded__out fadeUpTrigger h-100">
+                <div class="card card07 h-100 rounded__in text-white">
+                  <div class="card-body">
+                    <p class="card-text fw-bold mb-1">カリキュラム：フェーズ3</p>
+                    <h2 class="card-title display-2 fw-bold">Sustaining<br>Innovation,<br>Not Dreaming.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 mb-4">
+              <div class="row justify-content-between h-100">
+                <div class="col-12 mb-4">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card08 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">PITCH<br>PERFECT</h3>
+                        <p class="card-text">3-1／ビジョンと価値を伝え、資金調達へ<br>ピッチトレーニングプログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal05">詳細 →</button>
+                        <div class="modal fade" id="modal05" tabindex="-1" aria-labelledby="modal05Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal05Label">3-1 ピッチトレーニングプログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                資金調達やプロジェクトプレゼンテーションの際に、自社のビジョンやプロダクトの価値を効果的に伝えるためのピッチスキルを磨くワークショップ。参加者は、魅力的なストーリーの構築やプレゼンテーション技術を学び、資金調達やプロジェクトの推進に必要なスキルを身に付けます。また、スタートアップアカデミーのインキュベーションプログラムでは、新規事業の立ち上げからスケールアップまでの総合的な支援を提供します。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="redrounded__out fadeUpTrigger">
+                    <div class="card card09 rounded__in text-white">
+                      <div class="card-body">
+                        <h3 class="display-5 fw-bold card-title lh-1">DRIVE YOUR<br>"STARTUP"</h3>
+                        <p class="card-text">3-2／経営・マーケ・セールス戦略を学ぶ<br>持続的成長を実現するプログラム</p>
+                        <button class="btn btn-outline-light py-1 px-4" href="#" data-bs-toggle="modal" data-bs-target="#modal06">詳細 →</button>
+                        <div class="modal fade" id="modal06" tabindex="-1" aria-labelledby="modal06Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <p class="modal-title fs-4 fw-bold text-dark" id="modal06Label">3-2 持続的成長戦略プログラム</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                持続可能な経営管理、マーケティング、セールス戦略の策定と実践を通じて、スタートアップのビジネス成長を支援するワークショップです。参加者は、市場分析や競合分析、戦略的思考の方法論を学び、ビジネス成長のための戦略的なアプローチを身に付けます。また、セールス技術やマーケティング戦略の検討を通じて、顧客獲得やブランドイメージ向上に必要なスキルを習得します。スタートアップアカデミーは、参加者のビジネス成長に向けたサポートを継続的に提供します。
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / 03.mainvisual -->
+      <!-- 04.contrast / -->
+      <section class="section section__contrast contrast py-5 bg-light text-dark" id="contrast">
+        <div class="container contrast__container fadeUpTrigger">
+          <h2 class="text-center fs-2 fw-bold pt-5">G's ACADEMYとの比較</h2>
+          <p class="text-center lh-base">"Start Up, Everyone."の精神を共有しつつも<br>V's ACADEMYはアントレプレナー・起業家としての成長ステップに焦点を当てています。</p>
+          <p class="blockquote-footer text-center lh-base pt-2 pb-5">G’s ACADEMYはセカイを変えるGEEKのための起業家・エンジニアスクールを核とするコミュニティです</p>
+          <div class="row pb-5">
+            <div class="col-md-4">
+              <div class="card fadeUpTrigger bg-white">
+                <div class="card-header bg-white">
+                  <h3 class="fs-4 fw-bold text-center my-3">カリキュラムの焦点</h3>
+                </div>
+                <div class="card-body">
+                  <p class="fs-6 m-1">V's ACADEMYは、アントレプレナーとしての成長ステップに焦点を当てています。<br>G's ACADEMYは主に技術分野に特化したカリキュラムを提供しています。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card fadeUpTrigger bg-white">
+                <div class="card-header bg-white">
+                  <h3 class="fs-4 fw-bold text-center my-3">教育プログラム形式</h3>
+                </div>
+                <div class="card-body">
+                  <p  class="fs-6 m-1">V's ACADEMYは、アイデア検証、プロト開発、ピッチングまで一連のプロセスを実践。<br>G's ACADEMYでは、技術習得を中心とした授業形式が主となっています。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card fadeUpTrigger bg-white">
+                <div class="card-header bg-white">
+                  <h3 class="fs-4 fw-bold text-center my-3">インキュベーション</h3>
+                </div>
+                <div class="card-body">
+                  <p  class="lead fs-6 m-1">V's ACADEMYは、立ち上げからスケールアップまで総合的な資金支援機会を提供。<br>G's ACADEMYでは、一発の企業向けプレゼンが主な資金調達の機会に。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-dark d-block mx-auto fadeUpTrigger" data-bs-dismiss="modal" id="betrayal-button">ジーズアカデミー関係者ですか？</button>
+      </section>
+      <!-- / 04.contrast -->
+      <!-- 05.access / -->
+      <section class="section section__access access pt-5 pb-0 mb-0" id="access">
+        <div class="container access__container my-5 fadeUpTrigger">
+          <h2 class="text-center text-white fs-2 fw-bold mb-4">アクセス・学校情報</h2>
+          <div class="row mb-3 justify-content-center">
+            <h3 class="col-md-2 m-0 p-0 fs-6">
+              学校名
+            </h3>
+            <h4 class="col-md-4 fs-6">
+              V's ACADEMY TOKYO<br>（ブイズアカデミートーキョー）
+            </h4>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <h3 class="col-md-2 m-0 p-0 fs-6">
+              事務局所在地
+            </h3>
+            <h4 class="col-md-4 fs-6">
+              〒107-1161<br>東京都港区北青山3-5-6 青朋ビル2F
+            </h4>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <h3 class="col-md-2 m-0 p-0 fs-6">
+              TEL
+            </h3>
+            <h4 class="col-md-4 fs-6">
+              03-5413-5045
+            </h4>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <h3 class="col-md-2 m-0 p-0 fs-6">
+              FAX
+            </h3>
+            <h4 class="col-md-4 fs-6">
+              03-5413-5046
+            </h4>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <h3 class="col-md-2 m-0 p-0 fs-6">
+              MAIL
+            </h3>
+            <h4 class="col-md-4 fs-6">
+              dummy@visionaryacademy.tokyo
+            </h4>
+          </div>
+        </div>
+        <div class="text-center mt-5 pt-5 pb-0 google-maps w-100 fadeUpTrigger">
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3925228880016!2d139.71127647576753!3d35.6673357725916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9faa249f2b%3A0xc415d41a1217b607!2z44CSMTA3LTAwNjEg5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGx77yT5LiB55uu77yV4oiS77yWIDJm!5e0!3m2!1sja!2sjp!4v1681758387770!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <!-- / 05.access -->
+      <!-- 06.contact / -->
+      <section class="section section__contact contact container-fluid py-5 bg-dark" id="contact">
+        <div class="container contact__container fadeUpTrigger">
+          <h3 class="text-white mt-5 mb-4 text-center fs-2 fw-bold">説明会お申し込み・お問い合わせ</h3>
+          <p class="mb-5 text-center text-white">ぜひ1度、新たなセカイへ足を運んでみませんか。<br>説明会は通年で開催中。</p>
+          <form>
+            <div class="row mb-3 justify-content-center align-items-center">
+              <div class="col-md-2 m-0 p-0">
+                <label for="name" class="form-label text-white m-0 p-0">名前</label>
+              </div>
+              <div class="col-md-5">
+                <input type="text" class="form-control bg-dark text-white" id="name" placeholder="">
+              </div>
+            </div>
+            <div class="row mb-3 justify-content-center align-items-center">
+              <div class="col-md-2 m-0 p-0">
+                <label for="email" class="form-label text-white m-0 p-0">メールアドレス</label>
+              </div>
+              <div class="col-md-5">
+                <input type="email" class="form-control bg-dark text-white" id="email" placeholder="">
+              </div>
+            </div>
+            <div class="row mb-3 justify-content-center align-items-center">
+              <div class="col-md-2 m-0 p-0">
+                <label class="form-label text-white m-0 p-0">お問い合わせ理由</label>
+              </div>
+              <div class="col-md-5">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="reason" id="reason1" value="option1">
+                  <label class="form-check-label text-white" for="reason1">
+                    説明会お申し込み
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="reason" id="reason2" value="option2">
+                  <label class="form-check-label text-white" for="reason2">
+                    入学など当サービスご利用のお問い合わせ
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="reason" id="reason3" value="option3">
+                  <label class="form-check-label text-white" for="reason3">
+                    採用関連のお問い合わせ
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="reason" id="reason4" value="option4">
+                  <label class="form-check-label text-white" for="reason4">
+                    協業関連のお問い合わせ
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3 justify-content-center align-items-center">
+              <div class="col-md-2 m-0 p-0">
+                <label for="how" class="form-label text-white m-0 p-0">ブイズアカデミーを<br>知った理由</label>
+              </div>
+              <div class="col-md-5">
+                <select class="form-select bg-dark text-white" id="how">
+                  <option selected="">選択してください</option>
+                  <option value="1">Google検索</option>
+                  <option value="2">Twitter,noteなどのSNS</option>
+                  <option value="3">友人などの紹介</option>
+                  <option value="4">その他</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-5 justify-content-center align-items-center">
+              <div class="col-md-2 m-0 p-0">
+                <label for="message" class="form-label text-white m-0 p-0">お問い合わせ内容</label>
+              </div>
+              <div class="col-md-5">
+                <textarea class="form-control bg-dark text-white" id="message" rows="5" placeholder="志望理由などをご記入ください"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-light text-center d-block mx-auto px-5 mt-4 mb-5">送信</button>
+          </form>
+        </div>
+      </section>
+      <!-- / 06.contact -->
+    </main>
+    <footer class="my-3" id="footer">
+      <div class="container text-center text-white">
+        <p>&copy; 2023 V's Academy by Digital Hollywood</p>
+      </div>
+    </footer>
+  </div>
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="js/main.js"></script>
+</body>
+</html>

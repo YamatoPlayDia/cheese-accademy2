@@ -1,0 +1,206 @@
+/* ここから下に記載していく */
+html, body {
+    color: #fff;
+    background-color: #171820;
+}
+::-webkit-scrollbar{
+    width: 0.6rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFF;
+    border: #000 0.25rem solid;
+}
+.navbar {
+    border: 1px solid #FFF;
+    background-color: #000;
+}
+.navbar a {
+    color: #FFF !important;
+}
+.navbar-brand {
+    max-width: 14rem;
+}
+.navbar-collapse {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 100) 20%);;
+}
+.section-hero {
+    background-color: #000;
+    height: 100vh;
+    min-height: 20rem;
+}
+.first-view__spacer {
+    height: 5rem;
+}
+.first-view {
+    padding: 5rem 2rem 2rem;
+    font-size: 1.2rem;
+    background-image: url(../img/fv.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.first-view__cap {
+    font-size: 2.065rem;
+}
+.first-view__catch {
+    font-size: 5rem;
+    width: 80vw;
+    word-break: break-all;
+}
+.first-view__sub {
+    font-size: 2.065rem;
+}
+.first-view__text {
+    font-size: 1.285rem;
+}
+.about {
+    width: 95vw;
+    word-break: break-all;
+}
+.about__container, .mainvisual__container, .contrast__container, .access__container, .contact__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mainvisual .card {
+    background: #000000;
+}
+.mainvisual__container02 .card {
+    background: linear-gradient(90deg, #f80f0f, #cf3ff5);
+}
+.mainvisual .card01 {
+    background-image: url(../img/bg-card01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-color:rgba(0,0,0,0.8);
+    background-blend-mode:darken;
+}
+.mainvisual .card04 {
+    background-image: url(../img/bg-card04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.mainvisual .card04 .card-body {
+    background: linear-gradient(90deg, rgba(248,15,15,0.8), rgba(207,63,245,0.8));
+    background-blend-mode:lighten;
+}
+.mainvisual .card07 {
+    background-image: url(../img/bg-card07.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-color:rgba(0,0,0,0.8);
+    background-blend-mode:darken;
+}
+.mainvisual__container01 .col-md-7 .card h2, .mainvisual__container03 .col-md-7 .card h2, .mainvisual__container01 .col-md-7 .card p, .mainvisual__container03 .col-md-7 .card p {
+    background: linear-gradient(90deg, #f80f0f, #cf3ff5);
+    background: -webkit-linear-(90deg, #f80f0f, #cf3ff5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFF;
+}
+.mainvisual__container02 .card {
+    border: none;
+}
+.mainvisual .card button, .mainvisual .card p {
+    font-weight: bold;
+}
+.mainvisual .col-md-7 .card {
+    min-height: 30rem;
+}
+.mainvisual .col-md-5 .card {
+    min-height: 14rem;;
+}
+.mainvisual__container01 .redrounded__out, .mainvisual__container03 .redrounded__out {
+    background: linear-gradient(90deg, #f80f0f, #cf3ff5);
+    border-radius: 0.5rem;
+    padding: 0.1rem
+}
+.rounded__in {
+    border-radius: 0.45rem;
+}
+.access {
+    background: linear-gradient(90deg, #f80f0f, #cf3ff5);
+}
+.google-maps {
+    margin-bottom: -0.5rem;
+}
+.contrast .card-body p {
+    text-align: justify;
+}
+.contrast {
+    background-image: url(../img/bg-contrast.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 50%;
+    background-color:rgba(248,249,250,0.6);
+    background-blend-mode:lighten;
+}
+
+.red-dialog {
+    background-color: red;
+    color: black;
+}
+.garbled {
+    font-family: "Zapf Dingbats", sans-serif;
+}
+
+#fixed-circle-button, #fixed-circle-button2 {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 6rem;
+    height: 6rem;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    z-index: 1000;
+}
+
+.fadeUp {
+    -webkit-animation-name: fadeUpAnime;
+            animation-name: fadeUpAnime; /*アニメーションの名前*/
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s; /*アニメーションの実行時間*/
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; /*アニメーション後、要素が表示されたままにする*/
+}
+@-webkit-keyframes fadeUpAnime {
+0% {
+    opacity: 0; /*非表示*/
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px); /*縦方向に100pxずらす*/
+}
+100% {
+    opacity: 1; /*表示*/
+    -webkit-transform: translateY(0);
+            transform: translateY(0); /*元の位置*/
+}
+}
+@keyframes fadeUpAnime {
+0% {
+    opacity: 0; /*非表示*/
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px); /*縦方向に100pxずらす*/
+}
+100% {
+    opacity: 1; /*表示*/
+    -webkit-transform: translateY(0);
+            transform: translateY(0); /*元の位置*/
+}
+}
+.fadeUpTrigger {
+    opacity: 0; /*非表示*/
+}
+.hoverEffect {
+    transition: transform 0.1s;
+    transform: translateY(0);
+}
+.hoverEffect:hover {
+    transform: translateY(2rem) translateX(-3rem) rotate(-10deg);
+}
